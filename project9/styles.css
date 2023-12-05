@@ -1,0 +1,254 @@
+.banner img{
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 150px;
+	width: 80%;
+	position: relative;
+	padding-left:10%;
+	padding-right:10%;
+}
+
+.nav{
+    background-color:black;
+    overflow:hidden;
+    width:100%;
+}
+.nav a{
+    float:left;
+    color:darkgoldenrod;
+    text-align:center;
+    text-decoration: none;
+    font-size:15px;
+    width:16.66%
+}
+.nav a:hover.khorne{
+    background-color:red;
+}
+.nav a:hover.tzeentch{
+    background-color:blue;
+}
+.nav a:hover.nurgle{
+    background-color:yellowgreen;
+}
+.nav a:hover.slaanesh{
+    background-color:mediumpurple;
+}
+
+body{
+	background-image: url("img/starfield.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: static;
+	color:gold;
+	background-color:black;
+}
+
+h1{
+	font-family:Stencil Stf,fantasy;
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+	text-align: center;
+}
+
+p{
+	font-family:OCR A Std, monospace;
+}
+.textbox p, ul{
+	width: 90%;
+    padding-left: 2%;
+    padding-right:8%;
+    clear:both;
+    font-size:95%;
+}
+.textboxsolo p{
+	padding-left:2%;
+	padding-right:2%;
+    font-size:95%;
+    width:90%;
+    height:90%;
+}
+
+h2{
+	font-family:Stencil Stf,fantasy;
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+	text-align: center;
+	padding-top:15px;
+}
+.chaos h2{
+	font-family:Luminari, fantasy;
+	font-weight:600;
+}
+
+.left img{
+	float: left;
+	width: 300px;
+	height: 300px;
+	padding-right: 15px;
+	padding-left:30px;
+}
+
+.right img{
+    float: right;
+	width: 40%;
+	height: 80%;
+    box-sizing:border-box;
+    margin-left:10%;
+}
+.chaosalign img{
+	height:60%;
+    width:60%;
+    max-width:100%;
+    max-height:100%;
+	box-sizing:border-box;
+}
+
+.row{
+	box-sizing:border-box;
+}
+.chaosalign{
+	float:left;
+	width:40%;
+    height:90%;
+	padding:10px;
+	padding-left:75px;
+	text-align:center;
+    max-height:100%;
+    max-width:100%;
+}
+
+.flexbox{
+    display:flex;
+    flex-wrap:wrap;
+    width: 90%;
+    height: 50%;
+    padding: 20px;
+    justify-content:space-around;
+    align-items:center;
+    position:relative;
+    left:3%;
+}
+
+#contact{
+    background-color:black;
+    width:80%;
+    margin:5% 10% 5% 10%;
+    position:static;
+    top:40%;
+    
+}
+
+.contact ul li{
+    list-style:none;
+    clear:left;
+}
+
+.contact label{
+    display: inline-block;
+    float:left;
+    clear:left;
+    text-align:left;
+    width:120px;
+    padding-top:1%;
+}
+.contact input{
+    display:inline-block;
+    float:left;
+    margin-top:1%;
+}
+
+.contact textarea{
+    resize:none;
+    margin-top:10px;
+    margin-bottom:10px;
+    width:75%;
+}
+
+.contact button{
+    margin-left:12%;
+    margin-bottom:5px;
+}
+/*Mobile*/
+@media only screen and (max-width:600px){
+    .banner img{
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 25%;
+	width: 80%;
+	position: relative;
+	padding-left:10%;
+	padding-right:10%;
+    }
+    .nav a{
+        font-size:3vw;
+    }
+    .contact label{
+    display: inline-block;
+    float:left;
+    clear:left;
+    text-align:left;
+    width:30%;
+    padding-top:1%;
+    }
+    .chaosalign{
+    float:none;
+	height:90%;
+    width:50vw;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+	padding:10px;
+	text-align:center;
+    max-width:100%;
+    max-height:100%;
+    }
+    .chaosalign img{
+	height:90%;
+    width:50vw;
+    max-width:100%;
+    max-height:100%;
+    }
+    #contact{
+        height:100%;
+    }
+/*Tablet*/
+@media only screen and (max-width:768px){
+    .banner img{
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 25%;
+	width: 80%;
+	position: relative;
+	padding-left:10%;
+	padding-right:10%;
+    }
+    .nav a{
+        font-size:3vw;
+    }
+    .contact label{
+    display: inline-block;
+    float:left;
+    clear:left;
+    text-align:left;
+    width:30%;
+    padding-top:1%;
+    }
+    .chaosalign{
+    float:none;
+	height:90%;
+    width:50vw;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+	padding:10px;
+	text-align:center;
+    max-width:100%;
+    max-height:100%;
+    }
+    .chaosalign img{
+	height:90%;
+    width:50vw;
+    max-width:100%;
+    max-height:100%;
+    }
+}
